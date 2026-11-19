@@ -1,10 +1,12 @@
-# CoinSorter AI
+# CoinLens
+
+*From a jar of mixed coins to a sorted collection*
 
 Building AI course project
 
 ## Summary
 
-CoinSorter AI identifies coins from a photo: country, denomination, year and an estimated collector value. It helps people with a jar of mixed foreign coins find out in minutes whether anything is worth keeping – instead of spending days with catalogues.
+CoinLens identifies coins from a photo: country, denomination, year and an estimated collector value. It helps people with a jar of mixed foreign coins find out in minutes whether anything is worth keeping – instead of spending days with catalogues.
 
 ![Sample coins from my collection: denomination side (top) and portrait side (bottom)](images/coins-grid.jpg)
 
@@ -73,6 +75,9 @@ print(identify(20.5, 3.6, 0))   # -> ['UK 1 penny', 'Euro 1 cent', 'UK 2 pence']
 | ----------- | ----------- | ----------- |
 | Coin catalogue (country, denomination, years, size, weight, metal) | [Numista](https://en.numista.com/) catalogue and API, used under its terms | Labels and reference data |
 | Coin catalogue with mintages and collector price guides | [uCoin](https://ru.ucoin.net/catalog) catalogue, used under its terms | Cross-checking matches, rarity and value hints |
+| Collector catalogue and collection lists | [Colnect](https://colnect.com) | Extra reference data and how collectors describe coins |
+| Value estimates from archived auction sales | [CoinsTrail](https://coinstrail.com/) | Price ranges for flagging valuable coins |
+| Real auction results | [Catawiki](https://www.catawiki.com/) | Checking what coins actually sell for |
 | Coin photos | User-contributed photos with permission; my own collection | Training and testing the image model |
 | Prices | Public auction results and dealer price lists | Value estimates |
 
@@ -106,5 +111,6 @@ AI methods:
 * All coin photos are my own, taken from my collection (backgrounds removed and colours corrected)
 * [Numista](https://en.numista.com/) – the collaborative coin catalogue, as a reference and potential data source
 * [uCoin](https://ru.ucoin.net/catalog) – coin catalogue with mintage figures and price guides, as a reference
+* [Colnect](https://colnect.com), [CoinsTrail](https://coinstrail.com/) and [Catawiki](https://www.catawiki.com/) – collector catalogue, auction-based value estimates and auction results, as references
 * Building AI course by Reaktor Innovations and the University of Helsinki
 * Coin measurements in the demo are approximate public specifications, for illustration only
