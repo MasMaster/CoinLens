@@ -84,6 +84,7 @@ print(identify(20.5, 3.6, 0))   # -> ['UK 1 penny', 'Euro 1 cent', 'UK 2 pence']
 | Collector catalogue and collection lists | [Colnect](https://colnect.com) | Extra reference data and how collectors describe coins |
 | Value estimates from archived auction sales | [CoinsTrail](https://coinstrail.com/) | Price ranges for flagging valuable coins |
 | Real auction results | [Catawiki](https://www.catawiki.com/) | Checking what coins actually sell for |
+| Auction results for Ukrainian and Eastern European coins | [Violity](https://violity.com/) | Prices for coins like the Ukrainian gold example above |
 | Coin photos | User-contributed photos with permission; my own collection | Training and testing the image model |
 | Prices | Public auction results and dealer price lists | Value estimates |
 
@@ -118,5 +119,6 @@ AI methods:
 * [Numista](https://en.numista.com/) – the collaborative coin catalogue, as a reference and potential data source
 * [uCoin](https://ru.ucoin.net/catalog) – coin catalogue with mintage figures and price guides, as a reference
 * [Colnect](https://colnect.com), [CoinsTrail](https://coinstrail.com/) and [Catawiki](https://www.catawiki.com/) – collector catalogue, auction-based value estimates and auction results, as references
+* [Violity](https://violity.com/) – collector auction, a reference for Ukrainian coin prices
 * Building AI course by Reaktor Innovations and the University of Helsinki
 * Coin measurements in the demo are approximate public specifications, for illustration only
