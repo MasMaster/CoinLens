@@ -37,6 +37,12 @@ My personal motivation: I have about 7 kg of mixed world coins (UK, Germany, Gre
 
 Users: hobby collectors, people who inherited a coin collection, flea-market sellers and small coin shops. The app must work offline in basic mode, be simple enough for older users, and clearly show how confident it is about each match.
 
+### Example: coins the app should flag as valuable
+
+Most coins in a mixed jar are worth only their face value or a little more. The real goal is to catch the few that are not. These two small gold coins from Ukraine ("Archangel Michael", 2 hryvni, 2012 and 2020) are exactly that kind of find: the app should recognise the gold colour and the design, mark them as *worth checking with an expert*, and suggest keeping them in a capsule.
+
+<img src="images/gold-coins.jpg" width="420">
+
 A simple demo of the matching idea is below. In the real project the features would come from an image model, but here we use measurements (diameter, weight, colour) and a nearest-neighbour search:
 
 ```
