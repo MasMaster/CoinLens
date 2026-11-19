@@ -6,7 +6,7 @@ Building AI course project
 
 CoinSorter AI identifies coins from a photo: country, denomination, year and an estimated collector value. It helps people with a jar of mixed foreign coins find out in minutes whether anything is worth keeping – instead of spending days with catalogues.
 
-![Sample coins from my collection: obverse (top) and reverse (bottom)](images/coins-grid.jpg)
+![Sample coins from my collection: denomination side (top) and portrait side (bottom)](images/coins-grid.jpg)
 
 ## Background
 
